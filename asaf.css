@@ -33,3 +33,14 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
 }
+
+button {
+    background-color: blueviolet;
+    color: bisque;
+    height: 45px;
+    width: 65px;
+    align-content: center;
+    vertical-align: bottom;
+    text-align: center;
+    margin: 0 auto;
+}
