@@ -1,0 +1,35 @@
+@font-face {
+    font-family: myHeaderFont;
+    src: url('Hand_Of_Sean_Demo.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: myButtonFont;
+    src: url('MELADU\ ROSE.otf') format('opentype')
+}
+
+body {
+    background-image: url('giphy.gif');
+    background-position: center;
+    color: beige;
+}
+
+.header {
+    text-align: center;
+    font-style: italic;
+}
+
+.header1 {
+    font-family: myHeaderFont;
+}
+
+.header2 {
+    font-family: myButtonFont;
+}
+
+.yes {
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
