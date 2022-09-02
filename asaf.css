@@ -12,6 +12,7 @@ body {
     background-image: url('giphy.gif');
     background-position: center;
     color: beige;
+    text-align: center
 }
 
 .header {
@@ -21,26 +22,52 @@ body {
 
 .header1 {
     font-family: myHeaderFont;
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
 }
 
 .header2 {
     font-family: myButtonFont;
 }
 
-.yes {
+button {
+    height: 45px;
+    width: 65px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.yes1 {
     text-align: center;
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
-}
-
-button {
-    background-color: blueviolet;
-    color: bisque;
+    background-color: rgb(129, 255, 106);
     height: 45px;
     width: 65px;
     align-content: center;
     vertical-align: bottom;
     text-align: center;
     margin: 0 auto;
+}
+
+.no1 {
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    background-color: rgb(129, 255, 106);
+    height: 45px;
+    width: 65px;
+    align-content: center;
+    vertical-align: bottom;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.loveU {
+    color:hotpink;
+    font-family: myHeaderFont;
+    vertical-align: middle;
 }

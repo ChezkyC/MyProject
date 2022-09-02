@@ -1,18 +1,20 @@
-let yes = document.getElementById(`yes1`)
-let no = document.getElementById(`btn1`)
+let btn = document.getElementById(`btn`)
+let no = document.getElementById(`btnNo`)
+let yes = document.getElementById(`btnYes`)
+
 yes.addEventListener("click", () => {
     document.body.style.backgroundImage = "url('i-love-you-hearts-balloons.gif')";
-    document.body.style.color = "blue"
-    yes.innerText = 'WILL YOU MARRY MY?'
-    no.innerHTML = no1()
+
+    document.body.style.color = "rgb(200, 23, 23)"
+    // document.body.style.alignSelf = "center"
+
+    let loveU = document.createElement(`span`);
+    loveU.setAttribute("class", "loveU");
+    
+    let header = document.getElementById(`header`)
+    header.innerHTML = 'I ❤️ U'
+    btn.innerHTML = ""
 })
-
-no1 = () => {
-    no = document.getElementById(`btn`)
-    no.innerHTML = ""
-}
-
-
 
 const heSaidNo1 = () => {
     document.body.style.backgroundImage = "url('sad.gif')";
